@@ -10,6 +10,8 @@ class indexcontroller extends Controller
     // showing all categories of index page only
     function showCategories()
     {
+        // this data is showing into the home page only
+        
         $all_categories = DB::table('categories')->get();
         return view('index', ['all_categories' => $all_categories]);
     }
