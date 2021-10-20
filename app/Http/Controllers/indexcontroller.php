@@ -20,4 +20,3 @@ class indexcontroller extends Controller
         return view('include.header', ['all_categories' => $all_categories]);
     }
 }
-// next thing is not added
